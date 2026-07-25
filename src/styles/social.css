@@ -1,0 +1,29 @@
+.social-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 28px;
+  color: black;
+  transition: 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+/* Specific colors */
+.github:hover {
+  color: #333;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+}
+
+.mail:hover {
+  color: red;
+}
